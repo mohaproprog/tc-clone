@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+}
+
+.navbar{
+    background-color: rgb(36, 3, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar p{
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+}
+.navbar i{
+    color: white;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 150px;
+    margin-left:30%;
+    margin-top: 20px;
+}
+
+.my-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.list1{
+    display: flex;
+    gap: 13px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.list1 .icon-menu{
+    background-color:rgb(36, 3, 143);
+    padding: 10px;
+}
+.icon-menu i{
+    color: white;
+    font-size: 16px;
+}
+.list1 p{
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+
+.footer-btn{
+    background-color:rgb(36, 3, 143);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    margin:     10px;
+    margin-top: 250px;
+    padding: 10px 160px;
+    border: none;
+    outline: none;
+}
+
+
+/* after clicking book on */
+
+.book-page{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    background-color: #0e0c90;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90% ;
+    height: 29%;
+}
+
+.booking{
+    display: flex;
+    justify-content: space-between;
+    color: #0e0c90;
+    white-space: nowrap;
+    background-color: aliceblue;
+
+}
+
+.booking p{
+    margin-top: 10px;
+}
+
+.booking .book-on2{
+    font-size: 20px;
+    background-color:#0e0c90;
+    color: white;
+    padding: 20px;
+}
+.booking .check-call{
+    font-size: 20px;
+    padding: 20px;
+
+}
+.booking .book-off{
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.booking i{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+ 
+.input-box input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20%;
+    font-size: 20px;
+    color: white;
+
+}
+.input-box hr{
+    background-color:white;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.conform{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+.conform button{
+    padding: 13px 25px;
+    border: none;
+    color: white;
+    background-color: #0e0c90;
+}
