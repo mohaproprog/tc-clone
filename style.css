@@ -107,19 +107,20 @@
 }
 
 .booking .book-on2{
-    font-size: 20px;
+    font-size: 18px;
     background-color:#0e0c90;
     color: white;
     padding: 20px;
 }
 .booking .check-call{
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
 
 }
 .booking .book-off{
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
+    margin-right: 20px;
 
 }
 
