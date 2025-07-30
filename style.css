@@ -68,7 +68,7 @@
     white-space: nowrap;
     margin:     10px;
     margin-top: 250px;
-    padding: 10px 160px;
+    padding: 10px 145px;
     border: none;
     outline: none;
 }
@@ -85,7 +85,7 @@
     left: 5%;
     background-color: #0e0c90;
     display: flex;
-    
+    border: 2px solid rgb(164, 164, 159);
     flex-direction: column;
     justify-content: space-between;
     width: 90% ;
